@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615632788057' stop='1615632804644'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1615632788057' status='failed' stop='1615632804643'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1615632788061' status='passed' stop='1615632794207'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='11dc0587-b85a-40df-b956-a377cf678847-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794209' status='passed' stop='1615632794213'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='50414c89-385c-46bc-aad8-55c1fd51c63d-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='de6a3c48-0134-4f8e-8ea9-95533806c516-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794218' status='passed' stop='1615632794221'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='f88fba0f-3462-4175-ae6a-d388c0d9bc6a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794224' status='passed' stop='1615632794236'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='d5d2eead-3f8b-4349-9b24-6ac7378c803e-attachment.json' type='application/json' size='52'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794238' status='passed' stop='1615632794242'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='b04cba14-ffd9-4d7a-9101-7757494ff1a0-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='0e515bce-3972-4823-9b46-f803ba9ef7bb-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794244' status='passed' stop='1615632794246'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='538aca9c-b8a0-47fd-80ae-6a6d50396946-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794247' status='passed' stop='1615632794268'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='43756955-b531-4635-a1e2-2af08389edd2-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794269' status='passed' stop='1615632794271'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='79776d2f-b92c-4b5f-a086-8aa4fdea265b-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='71a50f79-bf29-4caa-baf6-bf608a61c7ff-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632794274' status='passed' stop='1615632794299'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='67cb9d4e-780f-4507-a97e-dd52881a4a9a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615632804307' status='passed' stop='1615632804642'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0c52fc4a-2e3f-4ed8-b5b4-58d0216532d7-attachment.png' type='image/png' size='59615'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect  to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect  to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Context.&lt;anonymous> (D:\NathanJames\regressionSuite\test\specs\/example.e2e.js:18:39)
+                    at Context.executeSync (D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

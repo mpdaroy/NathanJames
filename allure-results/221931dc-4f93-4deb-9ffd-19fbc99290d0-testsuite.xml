@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615682299024' stop='1615682300411'>
+    <name>Login Validation</name>
+    <title>Login Validation</title>
+    <test-cases>
+        <test-case start='1615682299024' status='broken' stop='1615682299720'>
+            <name>"before each" hook for Login Validation</name>
+            <title>"before each" hook for Login Validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1615682299034' status='broken' stop='1615682299720'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='c7c99649-c3af-4a66-945d-12940205ceab-attachment.json' type='application/json' size='52'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>net::ERR_NAME_NOT_RESOLVED at https://api-demo.supplybrain.io/login</message>
+                <stack-trace>net::ERR_NAME_NOT_RESOLVED at https://api-demo.supplybrain.io/login
+                Error: net::ERR_NAME_NOT_RESOLVED at https://api-demo.supplybrain.io/login
+                    at navigate (D:\NathanJames\regressionSuite\node_modules\puppeteer-core\src\common\FrameManager.ts:190:13)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at FrameManager.navigateFrame (D:\NathanJames\regressionSuite\node_modules\puppeteer-core\src\common\FrameManager.ts:160:17)
+                    at Frame.goto (D:\NathanJames\regressionSuite\node_modules\puppeteer-core\src\common\FrameManager.ts:642:12)
+                    at Page.goto (D:\NathanJames\regressionSuite\node_modules\puppeteer-core\src\common\Page.ts:1290:12)
+                    at DevToolsDriver.navigateTo (D:\NathanJames\regressionSuite\node_modules\devtools\build\commands\navigateTo.js:18:5)
+                    at Browser.wrappedCommand (D:\NathanJames\regressionSuite\node_modules\devtools\build\devtoolsdriver.js:75:26)
+                    at Browser.runCommandWithHooks (D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.url (D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at LoginPage.open (D:\NathanJames\regressionSuite\test\pageobjects\/page.js:14:24)
+                    at LoginPage.open (D:\NathanJames\regressionSuite\test\pageobjects\/login.page.js:30:22)
+                    at Context.&lt;anonymous> (D:\NathanJames\regressionSuite\test\specs\/login.e2e.js:9:19)
+                    at Context.executeSync (D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\NathanJames\regressionSuite\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1615682299720' status='passed' stop='1615682300411'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1615682299882' status='passed' stop='1615682299883'>
+                    <name>deleteSession</name>
+                    <title>deleteSession</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
